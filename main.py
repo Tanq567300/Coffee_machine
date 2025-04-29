@@ -32,6 +32,7 @@ resources = {
 }
 PASSWORD ="tanq567300"
 while True:
+    print(f"Meun:\n {MENU}")
     user=input(f"{a.logo} \nWhat would you like?(Espresso/Latte/Cappuccino): ").lower()
     if user == 'off':
         print("Turning off...")
